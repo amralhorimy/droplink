@@ -1,0 +1,7 @@
+# Overlay used by `make race`: publishes the API directly and lifts the rate limit,
+# so the race lab measures the atomic counter and nothing else.
+services:
+  api:
+    ports: ["8000:8000"]
+    environment:
+      DROPLINK_RATE_LIMIT_DOWNLOAD_PER_MINUTE: "100000"

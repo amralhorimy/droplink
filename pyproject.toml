@@ -1,0 +1,19 @@
+[project]
+name = "droplink"
+version = "1.0.0"
+description = "Temporary, secure file sharing - a learning-friendly FastAPI backend."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 140
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+ignore = ["B008"]
