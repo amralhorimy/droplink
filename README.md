@@ -139,6 +139,17 @@ droplink/
 
 This is a teaching project. It has no user accounts (a secret token owns each file), uses a fixed-window rate limiter, and a single processor per `WORKER_ID`. [DECISIONS.md](docs/en/DECISIONS.md) explains each trade-off and what you would change for production.
 
+## Help DropLink reach more developers
+
+If this project helps you understand real-world backend engineering, consider:
+
+- **Star** the repository to make it easier for other developers to discover.
+- **Share** it with a developer learning FastAPI, Redis, MongoDB, or Docker.
+- **Try a lab** and open an issue if you find a reproducible bug or a useful improvement.
+- **Contribute** documentation, tests, examples, or a focused feature.
+
+The best way to evaluate the project is to run it locally and explore the architecture—not just look at the folder names.
+
 ## Contributing & security
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). Licensed under [MIT](LICENSE).
